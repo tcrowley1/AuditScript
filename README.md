@@ -5,9 +5,9 @@ Audit Script to Save and Clear Event Logs
 
 The PowerShell script auditLogPull.ps1 is meant to be solution for saving and clearing auditing logs on windows system 1803 + without having Splunk or other software installed. Later additions may allow this to work across domains as well.
 
-It works by backing up the audit logs to a protected directory. The directory can be hardcoded as is currently. Later releases may include input to have dymanic folder creation.
+It works by backing up the audit logs to a protected directory. The directory can be hardcoded as is currently. Later releases may include input to have dynamic folder creation.
 
-From there it creates the folder of the currennt date when it backs up logs. The logs are backed up and cleared one by one. After the script is complete the logs can be viwed in the dated folder inside the chosen directory.
+From there it creates the folder of the currennt date when it backs up logs. The logs are backed up and cleared one by one. After the script is complete the logs can be viewed in the dated folder inside the chosen directory.
 
 # Running the script manually
 
